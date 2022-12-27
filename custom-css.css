@@ -1,0 +1,235 @@
+/*Esha Nama, Cynthia Wang, and Claire Yoon*/
+description {
+    left: 0%;
+    right: 0%;
+    transform: translateY(40%);
+    /*transform: translateX(40%);*/
+
+    /* transform: translate(40%,40%); */
+
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0%;
+    right: 0%;
+    background: rgba(244, 200, 237, 0.7);
+
+}
+
+body {
+    background: ivory;
+}
+
+.navbar {
+    background: #00bfc7 !important;
+}
+
+.page-footer {
+    padding: 24px;
+    background: #00bfc7;
+}
+
+.checked {
+    color: orange;
+}
+
+.hours {
+    font-size: 12px;
+    line-height: 5px;
+    text-align: left;
+}
+
+.right-margin {
+    margin-right: 300px;
+}
+
+.big-stars {
+    size: 10px;
+}
+
+.orange-btn {
+    background: orange;
+    color: black;
+}
+
+.yellow-btn {
+    background: yellow;
+    color: black;
+}
+
+.theme-blue-btn {
+    background: #00bfc7
+}
+
+.review-unhighlighted {
+    color: black
+}
+
+.review-highlighted {
+    color: red;
+}
+
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    background-color: #00bfc7;
+    padding: 10px;
+}
+
+.navbar-list {
+    /* *
+       * Use to outline the element
+       */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    /* *
+       * Use to outline the element
+       */
+    padding: 10px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-link H4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.title-block {
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.search {
+    font-size: 25px;
+}
+
+input {
+    color: gray;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 50px;
+    color: orange;
+}
+
+.checked {
+    color: orange;
+}
+
+.footer-container {
+    background-color: #00bfc7;
+    padding: 15px;
+}
+
+.rowspace {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.top-bottom {
+    padding: 45px 0 45px 0;
+}
+
+.a:hover {
+    color: pink;
+}
+
+.col-separater {
+    display: inline-block;
+}
+
+.col {
+    width: 33%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones and tablets: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #fadeshow {
+        display: none;
+    }
+}
